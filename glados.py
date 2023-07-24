@@ -51,5 +51,5 @@ def start():
         print(f'当前用户为：{get_status_res["data"]["email"]}, 会员PLAN为：{plans[str(get_status_res["data"]["vip"])]}, '
               f'剩余会员天数为：{int(float(get_status_res["data"]["leftDays"]))}')
 
-
+        print('----------------------------------------------------------')
 start()
