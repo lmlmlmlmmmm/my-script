@@ -25,7 +25,7 @@ def get_status():
 def checkin():
     url = 'https://glados.rocks/api/user/checkin'
     data = {
-        'token': 'glados.network'
+        'token': 'glados.one'
     }
     res = requests.post(url=url, headers=headers, data=data)
     return res.json()
